@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#000" stop-opacity="0.16" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="800" fill="url(#sky)" />
+  <g fill="#1a1815" opacity="0.75">
+    <path d="M430 380c0-40 20-70 55-70s55 30 55 70v140h-110V380z" />
+    <circle cx="490" cy="320" r="32" />
+    <path d="M475 440h30l20 60h-70l20-60z" />
+    <path d="M375 320h180v20H375z" />
+    <path d="M510 460l90 40v16l-90-40v-16z" />
+    <path d="M1070 420c0-38 18-66 50-66s50 28 50 66v128h-100V420z" />
+    <circle cx="1120" cy="358" r="30" />
+    <path d="M1110 430h20l18 54h-56l18-54z" />
+    <path d="M1040 330h160v20H1040z" />
+    <path d="M1085 450l82 38v14l-82-38v-14z" />
+    <path d="M700 410c0-30 16-52 42-52s42 22 42 52v112h-84V410z" />
+    <circle cx="742" cy="366" r="26" />
+    <path d="M732 430h20l16 46h-52l16-46z" />
+    <path d="M688 350h108v16H688z" />
+  </g>
+</svg>
