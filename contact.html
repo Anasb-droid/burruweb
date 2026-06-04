@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Field Journal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-contact">
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="clothing.html">Uniforms</a></li>
+            <li><a href="weaponry.html">Weaponry</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="contact.html" class="active-link">Field Journal</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="hero-panel">
+            <h1>Field Journal</h1>
+            <p class="hero-tag">A page of letters, reflections, and curator notes from the Great War.</p>
+            <p>Share your impressions, ask questions, or explore the voices of soldiers, nurses, and civilians during World War One.</p>
+        </div>
+    </header>
+
+    <main class="container contact-grid">
+        <section>
+            <h2>Write a Letter to the Exhibit</h2>
+            <p>This page is your field journal. Send a note about the artifacts, the history, or the story you want to see in the exhibit.</p>
+            <p>Use the form to leave feedback, suggest a new topic, or ask a question about uniforms, weapons, battles, or life on the home front.</p>
+        </section>
+        <section>
+            <form id="contact-form">
+                <fieldset>
+                    <legend>Send a field note</legend>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write your field note here" rows="5" required></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit">Send Field Note</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <figure class="image-card contact-image">
+            <img src="images/pages/contact/background.jpg" alt="Historic field journal and letters laid out on a table" />
+            <figcaption>Letters and notes help preserve the personal stories behind the war.</figcaption>
+        </figure>
+    </main>
+
+    <footer>
+        <p>Â© 2026 World War One Virtual Museum | Content adapted from historical archives and public domain sources.</p>
+    </footer>
+
+    <div class="chat-widget" aria-live="polite">
+        <button class="chat-toggle" type="button" aria-label="Open WWI story chat">
+            <span class="chat-icon">ðŸ’¬</span>
+        </button>
+        <div class="chat-panel" aria-hidden="true">
+            <div class="chat-header">
+                <div>
+                    <span class="chat-label">WWI Story AI</span>
+                    <p>World War One museum chat</p>
+                </div>
+                <button class="chat-close" type="button" aria-label="Close chat">Ã—</button>
+            </div>
+            <div class="chat-body">
+                <div class="message ai">
+                    <p>Welcome to the WWI field journal. Ask me about life in the trenches, wartime letters, or the stories behind the exhibit.</p>
+                </div>
+                <div class="message user">
+                    <p>What was trench life like?</p>
+                </div>
+                <div class="message ai">
+                    <p>Trench life was cold, wet, and dangerous. Soldiers faced mud, rats, and constant artillery fire while waiting for orders and writing letters home.</p>
+                </div>
+            </div>
+            <form class="chat-form">
+                <label class="sr-only" for="chat-input">Write your message</label>
+                <input id="chat-input" type="text" placeholder="Ask about WWI letters or stories..." autocomplete="off" />
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
+
+
+
+
